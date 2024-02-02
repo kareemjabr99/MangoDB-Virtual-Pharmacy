@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "@mui/x-data-grid": "^6.18.2",
+    "async-handler": "^0.0.3",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.6",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.7",
+    "path": "^0.12.7",
+    "socket.io": "^4.7.2",
+    "stripe": "^14.4.0"
+  },
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "generate-swagger": "node backend/swagger.js"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "prettier": "^3.0.0-alpha.6",
+    "swagger-autogen": "^2.23.7"
+  }
+}
